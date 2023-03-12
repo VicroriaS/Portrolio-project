@@ -78,6 +78,16 @@ p {
   padding: 120px 60px;
 }
 
+.image-container {
+  width: 560px;
+  height: 560px;
+  margin-bottom: 100px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
