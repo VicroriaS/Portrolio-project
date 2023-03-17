@@ -121,6 +121,12 @@ margin: 30px;;}
   padding: 15px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
+.photocoder
+{ width: 250px;
+    height: 250px;
+    object-fit: cover;
+  border-radius: 25% 10%;
+;}
 #social {
   font-size: 50px;
   color: rgb(247, 191, 214);
