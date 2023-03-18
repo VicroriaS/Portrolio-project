@@ -168,8 +168,8 @@ margin: 30px;;}
   background: var(--branding-color);}
 .project-photo {
   background-color: var(--secondary-color);
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border: 3px solid var(--secondary-color);
   padding: 15px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -198,6 +198,8 @@ margin: 30px;;}
     padding: 0;
     text-align: center;
   }
+ 
+  }
     h1 {
     font-size: 60px;
     line-height: 2;
@@ -213,7 +215,10 @@ nav a
 {font-size: 12px;}
 .hero h2
 {font-size: 14px;}
-}
 
+@media (max-width: 768px)
+{ .project-photo
+  {max-width: 200px;
+    max-height: 200px;}} 
 
 
