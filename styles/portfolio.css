@@ -8,7 +8,7 @@
 h1 {
   color: black;
 }
-h4
+h3
 {font-size: 48px;}
 p {
   font-family: "Poppins", sans-serif;
@@ -39,17 +39,23 @@ body {
   background-image: url(/images/allison-saeng-q5vZRglc5pk-unsplash.jpg);
 }
 nav
-{padding: 20px 0;}
-nav ul
-{padding: 0;
-margin: 0;}
-nav li{
-  display: inline;
+{display: flex;
+ justify-content: space-between;
+padding: 20px 0;}
+
+
+nav ul{
+padding:0;
+margin:0;
+
+}
+nav li
+{display: inline;
 list-style: none;
 line-height: 42px;
 margin-left: 15px;}
-nav a
-{text-decoration: none;
+nav a{
+text-decoration: none;
 color: black;}
 
 nav a:hover{
@@ -91,7 +97,7 @@ footer .social-links a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
   margin: 0 0 60px;
 }
 .hero p {
@@ -131,8 +137,8 @@ footer .social-links a:hover {
 }
 
 .content-container
-{padding: 160px;
-margin: 30px;;}
+{padding: 140px;
+margin: 30px;}
 
 .btn-branding {
   border-radius: 4px;
@@ -198,9 +204,12 @@ margin: 30px;;}
     padding: 0;
     text-align: center;
   }
+  .contact-box{
+    padding: 30px; ;
+  }
  
   }
-    h1 {
+h1 {
     font-size: 60px;
     line-height: 2;
   }
@@ -211,6 +220,11 @@ margin: 30px;;}
     text-align: center;
     padding: 0;
   }
+  h3{
+font-size: 24px;}
+
+btn{
+  font-size: 18px;}
 nav a
 {font-size: 12px;}
 .hero h2
